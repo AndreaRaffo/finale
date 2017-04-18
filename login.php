@@ -1,8 +1,7 @@
 <?php
-session_start();
 if(isset($_POST["name"]) && isset($_POST["password"])){
 	
-   $file = fopen('data.txt', 'r');
+    $file = fopen('data.txt', 'r');
     $good=false;
     while(!feof($file)){
 			$line = fgets($file);
@@ -14,6 +13,7 @@ if(isset($_POST["name"]) && isset($_POST["password"])){
 	}
 
     if($good){
+		session_start();
 		if($_POST['autologin'] == 1){
 			$password_hash = password_hash(trim($pass),PASSWORD_DEFAULT);
 			setcookie("mycookie",$password_hash, time() + (3600 * 24 * 30));
