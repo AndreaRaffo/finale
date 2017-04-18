@@ -2,8 +2,6 @@
 
 <?php
 session_start();
-
-echo $_SESSION['name'];
 if(!isset($_SESSION['name'])){
 	header("Location: index.php");
 }
@@ -40,7 +38,8 @@ if(!isset($_SESSION['name'])){
 
 	<div id="mainArea">
 		<div class="container page">
-			<?php echo "Benvenuto ". $_SESSION['name'];?>
+			<?php echo "Benvenuto, ". $_SESSION['name'];
+			?>
 
 		</div>
 	</div>
