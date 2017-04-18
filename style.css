@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: arial;
+	background-color: #ebebeb;
+}
+
+#header{
+	background-color: black;
+	width: 100%;
+	height: 120px;
+}
+
+.container{
+	width: 1190px;
+	height: auto;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+#logoArea{
+	width: 200px;
+	height: 100px;
+	background-image: url(Images/logo.png);
+	background-repeat: no-repeat;
+	float :left;
+}
+
+#navArea{
+	width: 1060px;
+	height: 100px;
+	margin-left: 200px;
+}
+
+#nav{
+	list-style: none;
+	margin-top: 55px;
+}
+
+#nav a{
+	color: white;
+	text-decoration: none;
+}
+
+#nav li{
+	float: left;
+	margin-left: 30px;
+	width: auto;
+	text-align: center;
+}
+
+#nav li:hover{
+	opacity: 0.8;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size: 18px;
+	background-color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+	width: auto;
+	
+}
+
+#login{
+	margin-left: 100px;
+	margin-right: 2px;
+	margin-top: 0px;
+	
+}
+
+#logout{
+	float: right;
+	margin-right: 70px;
+}
+
+#logout:hover{
+	opacity: 0.8;
+}
+
+
+img.registrati{
+	width: 50px;
+}
+
+
+.loginBtn{
+	font-size: 18px;
+	width: 30%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.barra{
+	opacity: 0.9;
+	height: 35px;
+	width: 2px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.containerForm{
+	padding: 20px;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.5); 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: rgba(255,255,255,0.9);
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 30%; 
+	border-radius: 10px;
+
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: -20px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+#mainArea{
+	background-image: url("Images/Sfondo.png");
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.page{
+	height: 100px;
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+	background-size: contain;
+	padding: 20px;
+	padding-bottom: 1px;
+}
+
+#footer{
+	background-color: black;
+	height: 40px;
+	width: 100%;
+	color: white;
+	font-family: courier;
+	text-align: center;
+}
+
+b{
+	font-size: 20px;
+}
+

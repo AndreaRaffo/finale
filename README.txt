@@ -1,0 +1,1 @@
+Compagno di gruppo : Marco Borinato
