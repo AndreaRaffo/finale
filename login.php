@@ -2,6 +2,7 @@
 if(isset($_POST["name"]) && isset($_POST["password"])){
 	
     $file = fopen('data.txt', 'r');
+	if(!$file) die("File not found");
     $good=false;
     while(!feof($file)){
 			$line = fgets($file);
