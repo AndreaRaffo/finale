@@ -1,2 +1,2 @@
 Compagno di gruppo : Marco Borinato
-URL : https://git.heroku.com/saw-br.git
+URL : https://saw-br.herokuapp.com/
